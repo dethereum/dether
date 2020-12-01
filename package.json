@@ -1,0 +1,7 @@
+{
+    "name": "dether",
+    "version": "1.0.0",
+    "bin": {
+        "dether": "index.js"
+    }
+}
