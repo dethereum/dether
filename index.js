@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+const clear = require('clear-any-console');
 
-console.clear();
+clear();
 console.log(`
 Dethereum - Frontend Engineer/AWS Architech
 

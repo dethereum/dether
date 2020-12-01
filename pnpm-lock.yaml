@@ -1,0 +1,10 @@
+dependencies:
+  clear-any-console: 1.16.2
+lockfileVersion: 5.1
+packages:
+  /clear-any-console/1.16.2:
+    dev: false
+    resolution:
+      integrity: sha512-OL/7wZpNy9x0GBSzz3poWja84Nr7iaH8aYNsJ5Uet2BVLj6Lm1zvWpZN/yH46Vv3ae7YfHmLLMmfHj911fshJg==
+specifiers:
+  clear-any-console: ^1.16.2
