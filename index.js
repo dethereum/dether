@@ -1,7 +1,20 @@
 #!/usr/bin/env node
-const clear = require('clear-any-console');
+const welcome = require('cli-welcome')
 
-clear();
+const pkgJSON = require('./package.json');
+
+welcome({
+    title: pkgJSON.name,
+    tagLine: `Get to know Dether`,
+    description: pkgJSON.description,
+    version: pkgJSON.version,
+    bgColor: `#FADC00`,
+    color: `#000000`,
+    bold: true,
+    clear: false
+})
+
+
 console.log(`
 Dethereum - Frontend Engineer/AWS Architech
 
